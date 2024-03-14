@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+.grid-wrapper {
+    padding: 50px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.cell {
+    aspect-ratio: 1 / 1;
+    border: 3px solid white;
+    padding: 20px;
+    color:  green;
+    display: flex;
+    justify-content: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.bg-orange {
+    background-color: coral;
+}
